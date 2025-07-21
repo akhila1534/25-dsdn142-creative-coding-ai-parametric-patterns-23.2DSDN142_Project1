@@ -7,6 +7,9 @@ let dpetal2 = 25
 let dflowercenter2 = 20
 let dpetal3 = 28
 let dflowercenter3 = 25
+let dpetal4 = 19
+let dflowercenter4 = 14
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -72,6 +75,19 @@ circle (172, 135, dpetal3)
 fill (121, 239, 252)
 circle (164, 155,dflowercenter3)
 
+//FLOWER 4 
+//petals
+fill (255, 55, 48)
+circle (30, 165, dpetal4)
+circle (35, 175, dpetal4)
+circle (45, 175, dpetal4)
+circle (50, 165, dpetal4)
+circle (45, 157, dpetal4)
+circle (35, 157, dpetal4)
+
+//center 
+fill (196, 255, 48)
+circle (40, 165, dflowercenter4)
 
 
 //circle (170, )
