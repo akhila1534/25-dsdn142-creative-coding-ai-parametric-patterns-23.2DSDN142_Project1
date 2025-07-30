@@ -11,6 +11,8 @@ let dpetal4 = 15
 let dflowercenter4 = 14
 let dpetal5 = 15
 let dflowercenter5 = 12
+let dpetal6 = 13 
+let dflowercenter6 = 11
 let switcher = true;
 
 
@@ -20,7 +22,7 @@ function setup_wallpaper(pWallpaper) {
   //pWallpaper.output_mode(GRID_WALLPAPER);
   
   pWallpaper.resolution(FIT_TO_SCREEN);
-  pWallpaper.show_guide(true); //set this to false when you're ready to print
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
@@ -148,22 +150,22 @@ circle (39,25, dflowercenter5)
 //FLOWER 6 
 //shadow 
 fill (95, 39, 143)
-circle (-3,109,13)
-circle (-3,120,13)
-circle (8,103,13)
-circle (7,124,13)
+circle (-3,109,dpetal6)
+circle (-3,120,dpetal6)
+circle (8,103,dpetal6)
+circle (7,124,dpetal6)
 //petals 
 fill (141,56,214)
-circle (0,110,13)
-circle (10,105,13)
-circle (18,110,13)
-circle (18,120,13)
-circle (10,125,13)
-circle (0,120,13)
+circle (0,110,dpetal6)
+circle (10,105,dpetal6)
+circle (18,110,dpetal6)
+circle (18,120,dpetal6)
+circle (10,125,dpetal6)
+circle (0,120,dpetal6)
 
 //center
 fill (255,237,57)
-circle (9,115,11)
+circle (9,115,dflowercenter6)
 
 
 }
