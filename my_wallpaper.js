@@ -13,7 +13,10 @@ let dpetal5 = 15
 let dflowercenter5 = 12
 let dpetal6 = 13 
 let dflowercenter6 = 11
-let switcher = false;
+let rectangleX = 0
+let rectangleW = 200
+let rectangleH = 30
+let switcher = true;
 
 
 
@@ -174,10 +177,10 @@ circle (9,115,dflowercenter6)
 function rectangle() {
   noStroke();
   fill (242, 202, 252)
-  rect (0, 10, 200, 30)
-  rect (0, 60, 200, 30)
-  rect (0, 110, 200, 30)
-  rect (0, 160, 200, 30)
+  rect (rectangleX, 10, rectangleW, rectangleH)
+  rect (rectangleX, 60, rectangleW, rectangleH)
+  rect (rectangleX, 110, rectangleW, rectangleH)
+  rect (rectangleX, 160, rectangleW, rectangleH)
 
 
 }
