@@ -13,7 +13,7 @@ let dpetal5 = 15
 let dflowercenter5 = 12
 let dpetal6 = 13 
 let dflowercenter6 = 11
-let switcher = true;
+let switcher = false;
 
 
 
@@ -154,6 +154,7 @@ circle (-3,109,dpetal6)
 circle (-3,120,dpetal6)
 circle (8,103,dpetal6)
 circle (7,124,dpetal6)
+
 //petals 
 fill (141,56,214)
 circle (0,110,dpetal6)
