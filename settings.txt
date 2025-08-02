@@ -9,46 +9,259 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
 let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let rect_height = 30;
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+let dpetal1 = 25
+let dflowercenter1 = 20 
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
+let dpetal2 = 15
+let dflowercenter2 = 10
+
+let dpetal3 = 18
+let dflowercenter3 = 15
+
+let dpetal4 = 10
+let dflowercenter4 = 9
+
+let dpetal5 = 13
+let dflowercenter5 = 11
+
+let dpetal6 = 13 
+let dflowercenter6 = 11
+
+let rectangleX = 0
+let rectangleW = 200
+let rectangleH = 10
+
+let switcher = true;
 
 /////////////////////////////////
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let rect_width  = 20;
+let rect_height = 30;
 
-function setup_wallpaper(pWallpaper) {
+let dpetal1 = 45
+let dflowercenter1 = 40
+
+let dpetal2 = 25
+let dflowercenter2 = 20
+
+let dpetal3 = 28
+let dflowercenter3 = 25
+
+let dpetal4 = 20
+let dflowercenter4 = 19
+
+let dpetal5 = 23
+let dflowercenter5 = 21
+
+let dpetal6 = 23 
+let dflowercenter6 = 25
+
+let rectangleX = 0
+let rectangleW = 200
+let rectangleH = 10
+
+let switcher = false;
+
+///////////////////////////////
+
+Wallpaper 3: 
+
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 18
+let dflowercenter1 = 10 
+
+let dpetal2 = 15
+let dflowercenter2 = 17 
+
+let dpetal3 = 18
+let dflowercenter3 = 15
+
+let dpetal4 = 8
+let dflowercenter4 = 10
+
+let dpetal5 = 10
+let dflowercenter5 = 12
+
+let dpetal6 = 9 
+let dflowercenter6 = 11
+
+let rectangleX = 10
+let rectangleW = 10
+let rectangleH = 40
+
+let switcher = true;
+
+///////////////////////////////
+
+Wallpaper 4 
+
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 25
+let dflowercenter1 = 20
+
+let dpetal2 = 45
+let dflowercenter2 = 40
+
+let dpetal3 = 28
+let dflowercenter3 = 25
+
+let dpetal4 = 28
+let dflowercenter4 = 20
+
+let dpetal5 = 15
+let dflowercenter5 = 12
+
+let dpetal6 = 30
+let dflowercenter6 = 25
+
+let rectangleX = 0
+let rectangleW = 200
+let rectangleH = 25
+
+let switcher = true;
+
+///////////////////////////////
+
+Wallpaper 5 
+
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 35
+let dflowercenter1 = 30
+
+let dpetal2 = 25
+let dflowercenter2 = 20
+
+let dpetal3 = 28
+let dflowercenter3 = 25
+
+let dpetal4 = 15
+let dflowercenter4 = 14
+
+let dpetal5 = 15
+let dflowercenter5 = 12
+
+let dpetal6 = 13
+let dflowercenter6 = 11
+
+let rectangleX = 50
+let rectangleW = 80
+let rectangleH = 25
+
+let switcher = true;
+
+///////////////////////////////
+
+Wallpaper 6 
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 35
+let dflowercenter1 = 30
+
+let dpetal2 = 25
+let dflowercenter2 = 20
+
+let dpetal3 = 28
+let dflowercenter3 = 25
+
+let dpetal4 = 15
+let dflowercenter4 = 14
+
+let dpetal5 = 15
+let dflowercenter5 = 12
+
+let dpetal6 = 13
+let dflowercenter6 = 11
+
+let rectangleX = 50
+let rectangleW = 80
+let rectangleH = 25
+
+let switcher = false;
+
+///////////////////////////////
+
+Wallpaper 7 
+
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 15
+let dflowercenter1 = 30
+
+let dpetal2 = 25
+let dflowercenter2 = 40
+
+let dpetal3 = 18
+let dflowercenter3 = 25
+
+let dpetal4 = 15
+let dflowercenter4 = 24
+
+let dpetal5 = 10
+let dflowercenter5 = 22
+
+let dpetal6 = 15
+let dflowercenter6 = 25
+
+let rectangleX = 0
+let rectangleW = 150
+let rectangleH = 10
+
+let switcher = true;
+
+///////////////////////////////
+
+Wallpaper 8 
+
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 35
+let dflowercenter1 = 36
+
+let dpetal2 = 25
+let dflowercenter2 = 26
+
+let dpetal3 = 18
+let dflowercenter3 = 19
+
+let dpetal4 = 15
+let dflowercenter4 = 14
+
+let dpetal5 = 10
+let dflowercenter5 = 11
+
+let dpetal6 = 17
+let dflowercenter6 = 16
+
+let rectangleX = 50
+let rectangleW = 100
+let rectangleH = 25
+
+let switcher = true;
+
+function setup_wallpaper(pWallpaper) 
+  pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
-}
