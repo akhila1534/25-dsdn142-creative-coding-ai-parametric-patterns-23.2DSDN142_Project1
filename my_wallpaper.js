@@ -3,26 +3,26 @@
 let rect_width  = 20;
 let rect_height = 30;
 
-let dpetal1 = 35
-let dflowercenter1 = 36
+let dpetal1 = 25
+let dflowercenter1 = 20
 
-let dpetal2 = 25
-let dflowercenter2 = 26
+let dpetal2 = 45
+let dflowercenter2 = 40
 
-let dpetal3 = 18
-let dflowercenter3 = 19
+let dpetal3 = 28
+let dflowercenter3 = 25
 
-let dpetal4 = 15
-let dflowercenter4 = 14
+let dpetal4 = 28
+let dflowercenter4 = 20
 
-let dpetal5 = 10
-let dflowercenter5 = 11
+let dpetal5 = 15
+let dflowercenter5 = 12
 
-let dpetal6 = 17
-let dflowercenter6 = 16
+let dpetal6 = 30
+let dflowercenter6 = 25
 
-let rectangleX = 50
-let rectangleW = 100
+let rectangleX = 0
+let rectangleW = 200
 let rectangleH = 25
 
 let switcher = true;
