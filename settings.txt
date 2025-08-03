@@ -96,7 +96,7 @@ let rectangleX = 10
 let rectangleW = 10
 let rectangleH = 40
 
-let switcher = true;
+let switcher = false;
 
 ///////////////////////////////
 
@@ -154,9 +154,9 @@ let dflowercenter5 = 12
 let dpetal6 = 13
 let dflowercenter6 = 11
 
-let rectangleX = 50
-let rectangleW = 80
-let rectangleH = 25
+let rectangleX = 0
+let rectangleW = 200
+let rectangleH = 30
 
 let switcher = true;
 
@@ -265,3 +265,47 @@ function setup_wallpaper(pWallpaper)
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
+
+///////////////////////////////
+
+Wallpaper 9 
+
+let rect_width  = 20;
+let rect_height = 30;
+
+let dpetal1 = 80
+let dflowercenter1 = 60
+
+let dpetal2 = 50
+let dflowercenter2 = 30
+
+let dpetal3 = 70
+let dflowercenter3 = 40
+
+let dpetal4 = 40
+let dflowercenter4 = 20
+
+let dpetal5 = 30
+let dflowercenter5 = 20
+
+let dpetal6 = 30
+let dflowercenter6 = 20
+
+let rectangleX = 0
+let rectangleW = 200
+let rectangleH = 30
+
+let switcher = false;
+
+function setup_wallpaper(pWallpaper) 
+  pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+  

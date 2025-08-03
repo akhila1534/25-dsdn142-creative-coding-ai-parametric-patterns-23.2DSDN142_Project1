@@ -3,40 +3,40 @@
 let rect_width  = 20;
 let rect_height = 30;
 
-let dpetal1 = 80
-let dflowercenter1 = 60
+let dpetal1 = 35
+let dflowercenter1 = 36
 
-let dpetal2 = 50
-let dflowercenter2 = 30
+let dpetal2 = 25
+let dflowercenter2 = 26
 
-let dpetal3 = 70
-let dflowercenter3 = 40
+let dpetal3 = 18
+let dflowercenter3 = 19
 
-let dpetal4 = 40
-let dflowercenter4 = 20
+let dpetal4 = 15
+let dflowercenter4 = 14
 
-let dpetal5 = 30
-let dflowercenter5 = 20
+let dpetal5 = 10
+let dflowercenter5 = 11
 
-let dpetal6 = 30
-let dflowercenter6 = 20
+let dpetal6 = 17
+let dflowercenter6 = 16
 
-let rectangleX = 0
-let rectangleW = 200
-let rectangleH = 30
+let rectangleX = 50
+let rectangleW = 100
+let rectangleH = 25
 
-let switcher = false;
+let switcher = true;
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
   
-  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.row_offset  = 0;
 }
 
 function wallpaper_background() {
@@ -59,7 +59,7 @@ function my_symbol() {
 
 
 
-  //FLOWER 1 
+  //FLOWER 1 - PINK 
   //shadow
   fill(196, 26, 139);
   circle(64, 89, dpetal1);
@@ -80,7 +80,7 @@ function my_symbol() {
   fill(255, 245, 133);
   circle(100, 85, dflowercenter1);
 
-  // FLOWER 2 
+  // FLOWER 2 - ORANGE 
   //shadow 
   fill(214, 123, 26);
   circle(156, 9, dpetal2);
@@ -98,7 +98,7 @@ function my_symbol() {
   fill(97, 227, 255);
   circle(158, 28, dflowercenter2);
 
-  //FLOWER 3 
+  //FLOWER 3 - GREEN
   //shadow
   fill(152, 191, 46);
   circle(135, 154, dpetal3);
@@ -119,7 +119,7 @@ function my_symbol() {
   fill(255, 77, 7);
   circle(164, 155, dflowercenter3);
 
-  //FLOWER 4 
+  //FLOWER 4 - RED
   //shadow 
   fill(179, 35, 30);
   circle(27, 164, dpetal4);
@@ -140,7 +140,7 @@ function my_symbol() {
   fill(188, 234, 58);
   circle(40, 165, dflowercenter4);
 
-  //FLOWER 5 
+  //FLOWER 5 - BLUE
   //shadow 
   fill(96, 162, 168);
   circle(25, 24, dpetal5);
@@ -161,7 +161,7 @@ function my_symbol() {
   fill(255, 151, 80);
   circle(39, 25, dflowercenter5);
 
-  //FLOWER 6 
+  //FLOWER 6 - PURPLE
   //shadow 
   fill(95, 39, 143);
   circle(-3, 109, dpetal6);
